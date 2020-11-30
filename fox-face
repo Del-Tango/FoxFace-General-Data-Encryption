@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# Regards, the Alveare Solutions society.
+#
+CONF_FILE_PATH='conf/fox-face.conf'
+
+if [ -f "$CONF_FILE_PATH" ]; then
+    source $CONF_FILE_PATH
+else
+    echo "[ WARNING ]: System failure! Could not find FoxFace configuration "\
+        "file at $CONF_FILE_PATH."
+    exit 1
+fi
+
+./scripts/fox-face.sh "$CONF_FILE_PATH"
