@@ -833,7 +833,7 @@ function format_flag_colors () {
             local DISPLAY="${RED}OFF${RESET}"
             ;;
         *)
-            local DISPLAY=$FOXFACE_AUTO_CHECKSUM
+            local DISPLAY=$FLAG
             ;;
     esac; echo $DISPLAY
     return 0
