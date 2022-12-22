@@ -1,7 +1,9 @@
 #/bin/bash
 #
-# Regards, the Alveare Solutions society.
+# Excellent Regards, the Alveare Solutions #!/Society -x
 #
+# F.O.X. Face - General Data Encryption
+
 declare -A DEFAULT
 declare -A CHECKSUM_ALGORITHMS
 declare -A ENCRYPTION_BEHAVIOURS
