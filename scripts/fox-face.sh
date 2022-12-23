@@ -1313,7 +1313,7 @@ ${CYAN}w${RESET} - Write table to disk"
     luks_encrypt_device_partition "/dev/$DEVICE_PARTITION"
     if [ $? -ne 0 ]; then
         echo; warning_msg "Something went wrong."\
-            "Could not encrypting device partition"\
+            "Could not encrypt device partition"\
             "${RED}/dev/$DEVICE_PARTITION${RESET}."
         return 3
     fi
